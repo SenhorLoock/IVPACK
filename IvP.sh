@@ -25,7 +25,7 @@ figlet -f mono12 "IvPack" | lolcat
 printf $azul
 echo "#######################################################################"
 printf $verde
- echo "[01] Franck [02] BOOMZIM [03] ouinja                              [04] Jarvis [05] ipdoser [06] NSGITV2                 "
+ echo "[01] Franck [02] BOOMZIM [03] ouinja                              [04] Jarvis [05] ipdoser [06] NSGITV2                              [07] apolodos [00] Exit"
   read enter0
 
 if [ "$enter0" = "01" ]
@@ -165,4 +165,24 @@ echo "Digite Enter Para Continuar..."
 read -s enter6
 fi
 
+if [ "$enter0" = "07" ]
+ then
+clear
+printf $azul
+echo "######################################################################"
+figlet -f mono12 "IvPACK" | lolcat
+printf $azul
+echo "######################################################################"
+cd
+git clone https://github.com/Ap0lo-sec/apoloDos
+cd IVPACK
+bash IvP.sh
+
+fi
+
+if [ "$enter0" = "00" ]
+ then
+  figlet -f mono12 "Exit..." | lolcat
+  
+  fi
 
