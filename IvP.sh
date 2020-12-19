@@ -18,7 +18,7 @@ echo "#######################################################################"
 printf $verde
  echo "[CRIADOR] [*] SENHOR LOOCK              "
  echo "[TELEGRAM] [*] @SenhorLoock             "
- echo "[GITHUB] [*] https://github.com/shoowl  "
+ echo "[GITHUB] [*] https://github.com/SenhorLoock  "
  printf $azul
 echo "#######################################################################"
 figlet -f mono12 "IvPack" | lolcat
@@ -38,7 +38,7 @@ echo "######################################################################"
 printf $azul
 echo "######################################################################"
    cd ..
-    git clone https://github.com/shoowl/Franck
+    git clone https://github.com/SenhorLoock/Franck
      clear
 figlet -f mono12 "Dicas" | lolcat
      printf $verde
@@ -107,7 +107,7 @@ if [ "$enter0" = "04" ]
 then
 clear
 cd
-git clone https://github.com/shoowl/Jarvis
+git clone https://github.com/SenhorLoock/Jarvis
 clear
 printf $azul
 echo "######################################################################"
